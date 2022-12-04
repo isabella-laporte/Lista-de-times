@@ -1,0 +1,29 @@
+.mat-toolbar{
+    background-color:green;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.favorite-icon{
+    border:none;
+    background-color: transparent;  
+     cursor:pointer;
+}
+
+.white{
+    color: white;
+}
+
+.blue{
+    color: blue;
+}
+
+.titulo-header{
+font-weight: bold;
+font-size: xx-large;
+}
+.header{
+    display: flex;
+}

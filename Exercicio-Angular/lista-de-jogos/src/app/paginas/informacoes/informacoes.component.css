@@ -1,0 +1,18 @@
+.titulo-info{
+    text-align: center;
+
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.cor-info{
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.tamanho-letra{
+    font-size: x-large;
+    font-weight: lighter;
+}

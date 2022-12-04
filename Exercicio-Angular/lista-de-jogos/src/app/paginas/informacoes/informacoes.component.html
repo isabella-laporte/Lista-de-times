@@ -1,0 +1,10 @@
+<div class="cor-info">
+
+    <h1 class="titulo-info">Bem-vindo as informações dos time da Copa 2022</h1>
+    <h4 class="titulo-info tamanho-letra">Check os times que já saíram da Copa</h4>
+
+    <mat-accordion>
+      <app-times-info *ngFor="let informacoes of informacoes" [informacoes]="informacoes"></app-times-info>
+      <app-times-info></app-times-info>
+    </mat-accordion>
+</div>

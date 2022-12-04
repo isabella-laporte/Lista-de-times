@@ -1,0 +1,16 @@
+    <mat-expansion-panel mat-expansion-panel  hideToggle *ngIf="informacoes" [ngStyle]="{ backgroundColor: mudancaCor()}" > 
+      <mat-expansion-panel-header> 
+        <mat-panel-title [ngClass]="{ 'completed' : !informacoes.estaNaCopa }">
+            <mat-checkbox [checked]="!informacoes.estaNaCopa" (change)="mudancaStatus()"></mat-checkbox>
+            {{ informacoes.time }}
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <ul>
+          <li *ngIf="informacoes.jogadoresFamosos"><b>Jogadores Famosos:</b> {{ informacoes.jogadoresFamosos}}</li>
+          <li><b>Vitórias:</b> {{ informacoes.vitorias }}</li>
+          <li><b>Está na copa?:</b> {{ informacoes.estaNaCopa }}</li>
+        </ul>
+      </mat-expansion-panel>
+   
+
+      

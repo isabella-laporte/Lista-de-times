@@ -1,0 +1,23 @@
+.bandeiras-main{
+    height: 50px;
+}
+
+
+
+.card-informacoes{
+    background-color: rgb(61, 4, 13);
+    justify-content: center;
+    text-align: center;
+    
+}
+
+mat-grid-tile-header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin-top: 50px;
+    height:70%;
+    width: 90%;  
+}
